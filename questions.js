@@ -398,9 +398,6 @@ const minnaNoNihongoData = {
         { question: "Please come again.", options: ["もう〜ですね", "そろそろ失礼します", "またいらっしゃってください", "どういたしまして"], correctIndex: 2, explanation: "またいらっしゃってください is a polite way to tell guests to visit again." }
     ],
  
-{ question: "It's time I was going.", options: ["もう〜ですね", "そろそろ失礼します", "またいらっしゃってください", "どういたしまして"], correctIndex: 1, explanation: "そろそろ失礼します (そろそろしつれいします) is said when you are about to leave." },
-        { question: "Please come again.", options: ["もう〜ですね", "そろそろ失礼します", "またいらっしゃってください", "どういたしまして"], correctIndex: 2, explanation: "またいらっしゃってください is a polite way to tell guests to visit again." }
-    ], // <-- Make sure this comma is here after Lesson 8!
 
     "N5 Kanji: Numbers": [
         { question: "一", options: ["One (いち)", "Two (に)", "Three (さん)", "Four (よん)"], correctIndex: 0, explanation: "一 is read as いち (ichi) and means One." },
