@@ -398,6 +398,9 @@ const minnaNoNihongoData = {
         { question: "Please come again.", options: ["もう〜ですね", "そろそろ失礼します", "またいらっしゃってください", "どういたしまして"], correctIndex: 2, explanation: "またいらっしゃってください is a polite way to tell guests to visit again." }
     ],
  
+{ question: "It's time I was going.", options: ["もう〜ですね", "そろそろ失礼します", "またいらっしゃってください", "どういたしまして"], correctIndex: 1, explanation: "そろそろ失礼します (そろそろしつれいします) is said when you are about to leave." },
+        { question: "Please come again.", options: ["もう〜ですね", "そろそろ失礼します", "またいらっしゃってください", "どういたしまして"], correctIndex: 2, explanation: "またいらっしゃってください is a polite way to tell guests to visit again." }
+    ], // <-- Make sure this comma is here after Lesson 8!
 
     "N5 Kanji: Numbers": [
         { question: "一", options: ["One (いち)", "Two (に)", "Three (さん)", "Four (よん)"], correctIndex: 0, explanation: "一 is read as いち (ichi) and means One." },
@@ -416,5 +419,12 @@ const minnaNoNihongoData = {
     ],
     
     "N5 Kanji: Days & Time": [
-        { question: "日", options: ["Sun / Day (にち / ひ)", "Moon / Month (げつ / つき)", "Fire (か / ひ)", "Water (すい
+        { question: "日", options: ["Sun / Day (にち / ひ)", "Moon / Month (げつ / つき)", "Fire (か / ひ)", "Water (すい / みず)"], correctIndex: 0, explanation: "日 represents the Sun or Day (Sunday is にちようび)." },
+        { question: "月", options: ["Sun / Day (にち / ひ)", "Moon / Month (げつ / つき)", "Fire (か / ひ)", "Water (すい / みず)"], correctIndex: 1, explanation: "月 represents the Moon or Month (Monday is げつようび)." },
+        { question: "火", options: ["Sun / Day (にち)", "Moon / Month (げつ)", "Fire (か / ひ)", "Water (すい / みず)"], correctIndex: 2, explanation: "火 represents Fire (Tuesday is かようび)." },
+        { question: "水", options: ["Fire (か / ひ)", "Water (すい / みず)", "Tree / Wood (もく / き)", "Gold / Money (きん / かね)"], correctIndex: 1, explanation: "水 represents Water (Wednesday is すいようび)." },
+        { question: "木", options: ["Fire (か / ひ)", "Water (すい / みず)", "Tree / Wood (もく / き)", "Gold / Money (きん / かね)"], correctIndex: 2, explanation: "木 represents a Tree or Wood (Thursday is もくようび)." },
+        { question: "金", options: ["Tree / Wood (もく)", "Gold / Money (きん / かね)", "Earth / Soil (ど / つち)", "Sun / Day (にち)"], correctIndex: 1, explanation: "金 represents Gold or Money (Friday is きんようび)." },
+        { question: "土", options: ["Tree / Wood (もく)", "Gold / Money (きん)", "Earth / Soil (ど / つち)", "Moon / Month (げつ)"], correctIndex: 2, explanation: "土 represents Earth or Soil (Saturday is どようび)." }
+    ]
 };
