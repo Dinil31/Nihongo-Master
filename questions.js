@@ -396,5 +396,25 @@ const minnaNoNihongoData = {
         { question: "It's already ~ [isn't it?]", options: ["もう〜ですね", "そろそろ失礼します", "またいらっしゃってください", "どういたしまして"], correctIndex: 0, explanation: "もう〜ですね means 'It's already... (time)'." },
         { question: "It's time I was going.", options: ["もう〜ですね", "そろそろ失礼します", "またいらっしゃってください", "どういたしまして"], correctIndex: 1, explanation: "そろそろ失礼します (そろそろしつれいします) is said when you are about to leave." },
         { question: "Please come again.", options: ["もう〜ですね", "そろそろ失礼します", "またいらっしゃってください", "どういたしまして"], correctIndex: 2, explanation: "またいらっしゃってください is a polite way to tell guests to visit again." }
-    ]
+    ],
+ 
+
+    "N5 Kanji: Numbers": [
+        { question: "一", options: ["One (いち)", "Two (に)", "Three (さん)", "Four (よん)"], correctIndex: 0, explanation: "一 is read as いち (ichi) and means One." },
+        { question: "二", options: ["One (いち)", "Two (に)", "Three (さん)", "Four (よん)"], correctIndex: 1, explanation: "二 is read as に (ni) and means Two." },
+        { question: "三", options: ["One (いち)", "Two (に)", "Three (さん)", "Four (よん)"], correctIndex: 2, explanation: "三 is read as さん (san) and means Three." },
+        { question: "四", options: ["Five (ご)", "Two (に)", "Three (さん)", "Four (よん/し)"], correctIndex: 3, explanation: "四 is read as よん or し (yon/shi) and means Four." },
+        { question: "五", options: ["Five (ご)", "Six (ろく)", "Seven (なな)", "Eight (はち)"], correctIndex: 0, explanation: "五 is read as ご (go) and means Five." },
+        { question: "六", options: ["Five (ご)", "Six (ろく)", "Seven (なな)", "Eight (はち)"], correctIndex: 1, explanation: "六 is read as ろく (roku) and means Six." },
+        { question: "七", options: ["Five (ご)", "Six (ろく)", "Seven (なな/しち)", "Eight (はち)"], correctIndex: 2, explanation: "七 is read as なな or しち (nana/shichi) and means Seven." },
+        { question: "八", options: ["Five (ご)", "Six (ろく)", "Seven (なな)", "Eight (はち)"], correctIndex: 3, explanation: "八 is read as はち (hachi) and means Eight." },
+        { question: "九", options: ["Nine (きゅう/く)", "Ten (じゅう)", "Hundred (ひゃく)", "Thousand (せん)"], correctIndex: 0, explanation: "九 is read as きゅう or く (kyuu/ku) and means Nine." },
+        { question: "十", options: ["Nine (きゅう)", "Ten (じゅう)", "Hundred (ひゃく)", "Thousand (せん)"], correctIndex: 1, explanation: "十 is read as じゅう (juu) and means Ten." },
+        { question: "百", options: ["Ten (じゅう)", "Hundred (ひゃく)", "Thousand (せん)", "Ten Thousand (まん)"], correctIndex: 1, explanation: "百 is read as ひゃく (hyaku) and means Hundred." },
+        { question: "千", options: ["Ten (じゅう)", "Hundred (ひゃく)", "Thousand (せん)", "Ten Thousand (まん)"], correctIndex: 2, explanation: "千 is read as せん (sen) and means Thousand." },
+        { question: "万", options: ["Ten (じゅう)", "Hundred (ひゃく)", "Thousand (せん)", "Ten Thousand (まん/ばん)"], correctIndex: 3, explanation: "万 is read as まん or ばん (man/ban) and means Ten Thousand." }
+    ],
+    
+    "N5 Kanji: Days & Time": [
+        { question: "日", options: ["Sun / Day (にち / ひ)", "Moon / Month (げつ / つき)", "Fire (か / ひ)", "Water (すい
 };
